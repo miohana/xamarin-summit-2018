@@ -15,7 +15,7 @@ namespace CabeleireiroAppMobile.Services
     {
         private readonly string _baseBotEndPointAddress = "https://directline.botframework.com";
         private HttpClient _client;
-        private string _directLineKey = "-TIuCkJ29Z8.cwA.a7Y.cQ75Xq0Q684a8R2Vi3QG3OMLFr5sLdMMgF2ZC-g96vM";
+        private string _directLineKey = "";
         private Conversation _lastConversation = null;
 
         public ChatBotService()
